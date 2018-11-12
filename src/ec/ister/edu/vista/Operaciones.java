@@ -5,6 +5,7 @@ import javax.swing.JOptionPane;
 
 
 public class Operaciones {
+    
     public static void main(String[] args) {
         
          Operaciones  res = new Operaciones();
@@ -28,7 +29,7 @@ public class Operaciones {
        }    
     }
     
-    public void Fibonaci(){
+    public void Factorial(){
         int n1;
         int i;
         int res=1;
@@ -36,14 +37,14 @@ public class Operaciones {
        n1= Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero : ")); 
          for( i = 1;i<=n1;i++){
             res=res*i;
-             JOptionPane.showMessageDialog(null," Fibonaci : "+res);
+             JOptionPane.showMessageDialog(null," Factorial : "+res);
          }
     }
     public void serieTres(){
       int num;
       int i;
       
-       num= Integer.parseInt(JOptionPane.showInputDialog("Inhrese un numero : "));
+       num= Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero : "));
        for( i = 0;i<=num;i+=3){
            
            JOptionPane.showMessageDialog(null,"Mi serie de 3 es : "+i);
